@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 40px;
+  margin: 40px 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.btn {
+  width: 200px;
+  align-self: center;
+}
+
+.addFirst {
+  align-self: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #4791db;
+}

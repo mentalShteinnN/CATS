@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  background-color: #4791db;
+  padding: 0 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
